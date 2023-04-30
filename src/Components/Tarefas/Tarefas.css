@@ -1,0 +1,30 @@
+.tarefas li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:15px 30px;
+  padding: 5px 0 5px 5px;
+  border-radius: 5px;
+}
+
+.tarefas li:hover {
+  background-color: #484848;
+}
+
+.tarefas div > * {
+  transform: scale(1.1);
+  width: 20px;
+}
+
+.tarefas div > *:hover {
+  cursor: pointer;
+}
+
+.tarefas div > :first-child {
+  color: dodgerblue;
+  margin-right: 10px;
+}
+
+.tarefas div > :nth-child(2) {
+  color: indianred;
+}
